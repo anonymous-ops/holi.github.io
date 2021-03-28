@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virat says Happy Holi</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .main {
+        height: 100vh;
+        width: 100vw;
+
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .container {
+        background: rgb(73, 110, 211);
+        background: linear-gradient(90deg, rgb(207, 17, 17) 3%, rgb(22, 245, 15) 35%, rgb(255, 4, 213) 98%);
+        height: 87vh;
+        width: 91vw;
+        border-radius: 3px;
+        position: absolute;
+        animation-name: viru1;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+    @keyframes viru1 {
+        0% {
+            background: rgb(170, 207, 17);
+            background: linear-gradient(90deg, rgb(160, 201, 11) 3%, rgba(255, 0, 181, 1) 35%, rgb(126, 20, 20) 98%);
+        }
+
+        25% {
+            transform: scale(1.1);
+            background: rgb(170, 207, 17);
+            background: linear-gradient(90deg, rgb(74, 17, 207) 3%, rgba(255, 0, 181, 1) 35%, rgb(25, 241, 5) 98%);
+        }
+
+        50% {
+            transform: scale(1);
+            background: rgb(170, 207, 17);
+            background: linear-gradient(90deg, rgb(197, 14, 188) 3%, rgba(255, 0, 181, 1) 35%, rgba(0, 99, 255, 1) 98%);
+        }
+
+        75% {
+            transform: scale(1);
+            background: rgb(170, 207, 17);
+            background: linear-gradient(90deg, rgb(72, 255, 0) 3%, rgb(214, 211, 8) 35%, rgb(10, 189, 196) 98%);
+        }
+
+        100% {
+            background: rgb(170, 207, 17);
+            background: linear-gradient(90deg, rgb(72, 255, 0) 3%, rgb(0, 47, 255) 35%, rgb(10, 189, 196) 98%);
+        }
+    }
+
+    h1 {
+        width: 87vw;
+        color: wheat;
+        animation-name: chal;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        font-size: 1rem;
+
+    }
+
+    @keyframes chal {
+        0% {
+            background-color: rgb(22, 63, 60);
+            color: red;
+            transform: rotateX(150deg);
+            font-size: 20px;
+            border-radius: 3px;
+        }
+
+        25% {
+            color: yellow;
+            background-color: white;
+            transform: rotateY(30deg);
+            font-size: 26px;
+            border-radius: 3px;
+        }
+
+        50% {
+            color: blue;
+            background-color: rgb(31, 24, 24);
+            font-size: 23px;
+            border-radius: 3px;
+        }
+
+        100% {
+            color: green;
+            background-color: rgb(63, 15, 47);
+            font-size: 25px;
+            border-radius: 3px;
+        }
+    }
+
+    .vid {
+        margin-top: 2px;
+        width: 77vw;
+        height: 50vh;
+        border-radius: 3px;
+
+    }
+
+    .vid1 {
+        width: 78vw;
+        height: 35vh;
+        border-radius: 3px;
+
+    }
+
+    a {
+        color: white;
+        background-color: rgb(60, 168, 240);
+        border-radius: 2px;
+        text-decoration: none;
+        padding: 15px;
+        position: relative;
+        top: 20px;
+        animation: cd 2s infinite linear;
+        z-index: 1;
+    }
+
+    @keyframes cd {
+        0% {
+            background: rgb(73, 110, 211);
+            background: linear-gradient(90deg, rgb(68, 12, 12) 3%, rgb(22, 245, 15) 35%, rgb(255, 4, 213) 98%);
+            
+        }
+
+        20% {
+            background-color: black;
+
+        }
+
+        60% {
+            background-color: rgb(19, 209, 120);
+
+        }
+
+        80% {
+            background-color: rgb(199, 25, 25);
+
+        }
+
+    }
+
+    .hw {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .music {
+        z-index: 2;
+
+        height: 5vh;
+        width: 49vw;
+       margin-left: 10px;
+    }
+    .wts{
+        background-color: rgb(216, 228, 216);
+        border-radius: 50%;
+        width: 2px;
+        height: 3px;
+    }
+    p{
+        z-index: 2;
+        color: aliceblue;
+        margin-top: 123%;
+        margin-right: 25%;
+        font-size: 12px;
+    }
+    .footer {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        color: aliceblue;
+        margin-top: auto;
+        z-index: 2;
+        position: static;
+    }
+
+    p {
+        margin: 0%;
+        padding: 0%;
+        padding-left: 4%;
+        line-height: 3rem;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <a href="./holi/team.html">Team Contact</a>
+    <a href=
+    "whatsapp://send?text=Happy Holi होली मुबारक ! मेरे पास आपके लिए उपहार है कृपया क्लिक करें "
+            data-action="share/whatsapp/share"
+            target="_blank">
+            📞 whatsapp
+        </a>
+    <div class="main">
+        <a href="./holi/holi.html">Click me</a>
+        <audio class="music" controls autoplay="">
+            <source src="./holi/kabhaiholi.mp3" type="audio/mpeg">
+            </audio>
+            <div class="container">
+                <img class="vid" src="./holi/giphy.gif" alt="wish you a long life ">
+                <img class="vid1" src="./holi/giphy (1).gif" alt="wish you a long life ">
+                
+                <div class="hw">
+                    
+                    <h1>Wish you very Happy holi</h1>
+                </div>
+            </div>
+           
+    </div>
+    <div class="footer">
+        <p>
+           📧anonymous.virat@hotmail.com
+        </p>
+        <p>
+            📱Contact: 8112980211
+        </p>
+    </div>
+</body>
+
+</html>

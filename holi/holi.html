@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="./typed.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Righteous', cursive;
+        }
+
+        .container {
+            display: grid;
+            align-content: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            grid-gap: 10px;
+            height: 96vh;
+            width: 95vw;
+        }
+        #card1{
+            height: 30vh;
+            
+        }
+        h1{
+            margin-top: 28px;
+            width: 69vw;
+            height: 10vh;
+        }
+        span{
+            color: red;
+        }
+        .footer {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        color: aliceblue;
+        margin-top: auto;
+        z-index: 2;
+        position: static;
+    }
+
+    .p {
+        margin: 0%;
+        padding: 0%;
+        padding-left: 4%;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .watsapp{
+        color: white;
+        background-color: rgb(21, 207, 21);
+        border-radius: 3px;
+        text-decoration: none;
+       padding: 2px;
+       margin-left: 2px;
+    }
+    .watsapp{
+        color: white;
+        background-color: rgb(21, 207, 21);
+        border-radius: 3px;
+        text-decoration: none;
+       padding: 2px;
+       margin-left: 2px;
+    }
+    </style>
+</head>
+
+<body>
+    <a class="watsapp" href=
+    "whatsapp://send?text=Happy Holi होली मुबारक ! मेरे पास आपके लिए उपहार है कृपया क्लिक करें "
+            data-action="share/whatsapp/share"
+            target="_blank">
+            📞 whatsapp
+        </a>
+    <div class="container">
+        <h1 class="typed">Select Your Mood : <span class="type"></span></h1>
+        <div class="main">
+
+            <div class="card" style="width: 18rem;">
+                <img id="card1" src="https://images.unsplash.com/photo-1610313898425-a5c637a940db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=339&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Happy 🙂 </h5>
+                    <p class="card-text"><span class="happy"></span></p>
+                    <a href="./h.html" class="btn btn-primary">Open</a>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img id="card1" src="https://images.unsplash.com/photo-1583807543495-625f6c9e84db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sad 😿 </h5>
+                        <p class="card-text"><span class="sad"></span></p>
+                        <a href="./s.html" class="btn btn-primary">Open</a>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img id="card1" src="https://images.unsplash.com/photo-1591256550014-150b0c0447bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Crazy 👦 
+                            </h5>
+                            <p class="card-text"><span class="crazy"></span></p>
+                            <a href="./c.html" class="btn btn-primary">Open</a>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img id="card1" src="https://images.unsplash.com/photo-1501005727661-77318235fcac?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Romantic 💑 </h5>
+                                <p class="card-text"><span class="romantic"></span></p>
+                                <a href="./r.html" class="btn btn-primary">Open</a>
+                            </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="p">
+           📧anonymous.virat@hotmail.com
+        </p>
+    </div>
+</body>
+<script>
+    var typed = new Typed('.type', {
+        strings: ["Happy..", "Sad..", "Romantic..", "Crazy.."],
+        typeSpeed: 60,
+        loop: true,
+        loopCount: Infinity,
+    });
+    var typedhappy = new Typed('.happy', {
+        strings: ["अर्ज़ है…सर में दर्द हो तो", "खा लो सिरदर्द की गोली…", "😊 वाह… वाह… ","सर में दर्द हो तो खा लो सिरदर्द की गोली…", "😊वाह… वाह…","मुबारक हो आपको हैप्पी होली…😀😄🙏"],
+  typeSpeed: 60,
+            loop: true,
+            loopCount: Infinity,
+});
+var typeds = new Typed('.sad', {
+        strings: ["जब भी मैंने आती देखी होली,", "रात अँधेरी मुझसे बोली,", "सुबह के रंग में रंग दूंगी तुझको,", "सुबह ने पर फिर आँख ही ना खोली"],
+        typeSpeed: 60,
+        loop: true,
+        loopCount: Infinity,
+    });
+    var typedc = new Typed('.crazy', {
+        strings: ["इस बार होली ऐसी मनाऊँगा,", "खुद को करके काला पीला,", "तेरी गली पहुँच जाऊँगा…☺️.", "तू सोचती रह जाएगी,..","और तेरे बाप के सामने तुझे रंग लगा जाऊँगा… 😆😁"],
+        typeSpeed: 60,
+        loop: true,
+        loopCount: Infinity,
+    });
+    var typedr = new Typed('.romantic', {
+        strings: ["हर रंग फिका है प्रेम रंग के आगे", "होली का रंग भी तब ही मनभावन लागे..", "जब साथ में हो वो.", "जिससे जुड़े हो मोह के धागे.."],
+        typeSpeed: 60,
+        loop: true,
+        loopCount: Infinity,
+    });
+
+</script>
+
+</html>
